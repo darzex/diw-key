@@ -1,10 +1,1 @@
-local key = getgenv().key
-local check = "https://diw-key-checker.000webhostapp.com/check.php?key=" .. key
-if game:HttpGet(check) == "Whitelisted" then
-
-wait(1)
-loadstring(game:HttpGet("https://pastebin.com/raw/zSTwD3en"))()
-
-else
-game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
-end
+caca
